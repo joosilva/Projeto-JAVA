@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Inventario {
 
-	ArrayList<String> mochila = new ArrayList<String>();
-	List<Item> itens = new ArrayList<Item>();
-	List<Pontos> pontuacao = new ArrayList<Pontos>();
+	private List<String> mochila = new ArrayList<String>();
+	private List<Item> itens = new ArrayList<Item>();
+	private List<Pontos> pontuacao = new ArrayList<Pontos>();
 	private int moedas = 2;
 	private String objeto;
 
@@ -35,11 +35,11 @@ public class Inventario {
 		this.moedas = moedas;
 	}
 
-	public ArrayList<String> getMochila() {
+	public List<String> getMochila() {
 		return mochila;
 	}
 
-	public void setMochila(ArrayList<String> mochila) {
+	public void setMochila(List<String> mochila) {
 		this.mochila = mochila;
 	}
 
@@ -147,7 +147,7 @@ public class Inventario {
 
 		} else {
 
-			moedas -= valor;
+			setMoedas(moedas -= valor);
 			System.out.println("\n" + objeto.getNome() + " foi adicionado ao seu inventário." + 
 			"\nVocê ainda possui " + moedas	+ " moedas.");
 			mochila.add(objeto.getNome());
