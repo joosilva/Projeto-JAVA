@@ -146,7 +146,7 @@ public class Inventario {
 	public int ganharMoedas(int valor) {
 		int moedas = this.moedas + valor;
 		setMoedas(moedas);
-		System.out.println("\nParabéns! Você ganhou " + valor + " e agora possui " + moedas + " moedas!");
+		System.out.println("\nParabéns! Você ganhou " + valor + " moedas e agora possui " + moedas + " moedas!");
 		return moedas;
 	}
 
@@ -175,7 +175,7 @@ public class Inventario {
 		} else {
 
 			moedas -= valor;
-			System.out.println(objeto.getNome() + " foi adicionado ao seu inventário." + 
+			System.out.println("\n" + objeto.getNome() + " foi adicionado ao seu inventário." + 
 			"\nVocê ainda possui " + moedas	+ " moedas.");
 			mochila.add(objeto.getNome());
 		}
