@@ -9,10 +9,7 @@ public class Inventario {
 	List<Item> itens = new ArrayList<Item>();
 	List<Pontos> pontuacao = new ArrayList<Pontos>();
 	private int moedas = 2;
-	private String florDaAmizade;
-	private String florDaPaz;
-	private String florDoTrabalhoEmEquipe;
-	private String chave;
+	private String objeto;
 
 	public List<Item> getItens() {
 		return itens;
@@ -54,36 +51,12 @@ public class Inventario {
 		this.pontuacao = pontuacao;
 	}
 
-	public String getFlorDaAmizade() {
-		return florDaAmizade;
+	public String getObjeto() {
+		return objeto;
 	}
 
-	public void setFlorDaAmizade(String florDaAmizade) {
-		this.florDaAmizade = florDaAmizade;
-	}
-
-	public String getFlorDaPaz() {
-		return florDaPaz;
-	}
-
-	public void setFlorDaPaz(String florDaPaz) {
-		this.florDaPaz = florDaPaz;
-	}
-
-	public String getFlorDoTrabalhoEmEquipe() {
-		return florDoTrabalhoEmEquipe;
-	}
-
-	public void setFlorDoTrabalhoEmEquipe(String florDoTrabalhoEmEquipe) {
-		this.florDoTrabalhoEmEquipe = florDoTrabalhoEmEquipe;
-	}
-
-	public String getChave() {
-		return chave;
-	}
-
-	public void setChave(String chave) {
-		this.chave = chave;
+	public void setObjeto(String objeto) {
+		this.objeto = objeto;
 	}
 
 	public void criarPontos() {
@@ -183,20 +156,8 @@ public class Inventario {
 		return moedas;
 	}
 	
-	public void adicionarFlorDaAmizade() {
-		mochila.add("Flor da Amizade");
-	}
-
-	public void adicionarFlorDaPaz() {
-		mochila.add("Flor da Paz");
-	}
-	
-	public void adicionarFlorDoTrabalhoEmEquipe() {
-		mochila.add("Flor do Trabalho em Equipe");
-	}
-
-	public void adicionarChave() {
-		mochila.add("Chave");
+	public void adicionarObjeto(String objeto) {
+		mochila.add(objeto);
 	}
 	
 	public boolean verificarMochila(String item) {
