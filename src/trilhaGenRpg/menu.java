@@ -11,7 +11,7 @@ public class menu {
 		int opcao = 2, opcaoSobre, opcaoSair;
 
 		while (opcao > 1 && opcao < 4) {
-			System.out.println("  ( )_      _(_ )( )");
+			System.out.println("\n  ( )_      _(_ )( )");
 			System.out.println("  |  _)_ __(_)| || |__    _ _      __    __   ___");
 			System.out.println("  | | (  __) || ||  _  \\/ _  )   / _  \\/ __ \\  _  \\");
 			System.out.println("  | |_| |  | || || | | | (_| |  ( (_) |  ___/ ( ) |");
