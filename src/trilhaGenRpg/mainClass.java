@@ -111,7 +111,6 @@ public class mainClass {
 		} else { 
 			System.out.println("Você acha melhor não entrar na gruta estranha e assustadora.");
 		}
-		
       
 	}
 	
