@@ -2,8 +2,7 @@ package trilhaGenRpg;
 
 public class Item  extends Valores {
 	
-	private String nome;
-	
+	private String nome;	
 	
 	public Item(String nome, int valor) {
 		super(valor);
