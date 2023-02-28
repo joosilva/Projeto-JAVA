@@ -1,13 +1,14 @@
 package trilhaGenRpg;
 
-public class Item {
+public class Item  extends Valores {
 	
 	private String nome;
-	private int valor;
+	
 	
 	public Item(String nome, int valor) {
+		super(valor);
 		this.nome = nome;
-		this.valor = valor;
+		
 	}
 	
 	public String getNome() {

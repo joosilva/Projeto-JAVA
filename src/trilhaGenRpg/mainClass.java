@@ -52,10 +52,11 @@ public class mainClass {
 			switch (opcao) {
 			case 2:
 				System.out.println(
-						"\n<= VOLTAR AO MENU (Digite 0)\nEste é um jogo RPG onde nosso personagem principal, você,"
+						"\n<= VOLTAR AO MENU (Digite 0)\n\nEste é um jogo RPG onde nosso personagem principal, você,"
 								+ " tem tomadas de decisões diante de diversos"
 								+ "\ncenários em um mundo cheio de descobertas e aventuras chamado GeneratiON."
-								+ "\n\nVOCÊ ESTÁ PRONTE!?"
+								+ "\nSeu objetivo é simples, encontrar o tão famoso pergaminho JAVA..."
+								+ "\n\nVOCÊ ESTÁ PRONTE PARA EMBARCAR NESSA AVENTURA!?"
 								+ "\n\n\t\tIdealização e Roteiro:\n\t\t     ANA SOPHIA\n\n\t\t   Código Fonte:\n\n\t  Criação e implementação de métodos:\n\t\t JOÃO VICTOR MENDES"
 								+ "\n\n\t   Execução das tomadas de decisão:\n\t\t     ANA SOPHIA\n\t\t  ELISSANDRO ABREU"
 								+ "\n\t\t    GIULIA FARIA\n\t\t       JAINNA\n\t\t JOÃO VITOR MOLINARI"
@@ -125,6 +126,13 @@ public class mainClass {
 			int decisao = 0;
 			boolean conversaThata = false;
 
+			System.out.println("      ':.");
+			System.out.println("         []_____");
+			System.out.println("        /\\      \\");
+			System.out.println("    ___/  \\__/\\__\\__");
+			System.out.println("---/\\___\\ |''''''|__\\-- ---");
+			System.out.println("   ||'''| |''||''|''|");
+			System.out.println("   ``\"\"\"`\"`\"\"))\"\"`\"\"`");
 			System.out.println(
 					"\nVocê é um exploradore, que está em uma jornada em uma cidade interessante, chamada Generation.");
 			System.out.println(
@@ -161,9 +169,23 @@ public class mainClass {
 				System.out.println("diz sobre como você tem muita coragem de sair por aí se aventurando.");
 				System.out.println("Ela te diz algo sobre uma caverna, mas você acaba não prestando muita atenção!!");
 				System.out.println("Ela te dá uma flor amarela, diz que é para simbolizar a amizade. ");
+				System.out.println("    _\r\n"
+						+ "  _.;_'-._\r\n"
+						+ " {`--.-'_,}\r\n"
+						+ "{; \\,__.-'/}\r\n"
+						+ "{.'-`._;-';\r\n"
+						+ " `'--._.-'\r\n"
+						+ "    .-\\\\,-\"-.\r\n"
+						+ "    `- \\( '-. \\\r\n"
+						+ "        \\;---,/\r\n"
+						+ "    .-\"\"-;\\\r\n"
+						+ "   /  .-' )\\\r\n"
+						+ "   \\,---'` \\\\\r\n"
+						+ "            \\|");
 				System.out.println("Você aceita?");
-
+				
 				do {
+
 					try {
 						System.out.println("\n1- Para aceitar a flor.");
 						System.out.println("\n2- Para não aceitar a flor");
@@ -193,7 +215,8 @@ public class mainClass {
 							"Você recusa com a desculpa que não teria como preservá-la, o que não é verdade...");
 				}
 			}
-
+			System.out.println(" (')) ^v^  _           (`)_\r\n" + "(__)_) ,--j j-------, (__)_)\r\n"
+					+ "      /_.-.___.-.__/ \\\r\n" + "    ,8| [_],-.[_] | oOo\r\n" + ",,,oO8|_o8_|_|_8o_|&888o,,,,,,");
 			System.out.println("\nVocê continua andando pela cidade, passa por algumas pessoas que são bem amigáveis,");
 			System.out.println("até que encontra um homem chamado Yuri.");
 			System.out.println("Deseja conversar com ele?");
@@ -233,11 +256,37 @@ public class mainClass {
 			}
 
 			if (conversaThata) {
-
+				System.out.println("                  _.._\r\n"
+						+ "   _________....-~    ~-.______\r\n"
+						+ "~~~                            ~~~~-----...___________..--------\r\n"
+						+ "                                              __.~~~._\r\n"
+						+ "                                             (         )\r\n"
+						+ "                                            /    oooo  \\\r\n"
+						+ "                                           (    OOOOOO   \\\r\n"
+						+ "___________________________________________/   oooooooo  )____________\r\n"
+						+ " -          -         -       -      -    / '  '. ` `   \\    -    -\r\n"
+						+ "      --                  --       --   /    '  . `   `   \\    --\r\n"
+						+ "---            ---          ---       /  '                  \\ ---\r\n"
+						+ "     ----               ----        /       ' ' .    ` `      \\  ----\r\n"
+						+ "-----         -----         ----- /   '   '        `      `     \\");
 				System.out.println(
 						"\nAndando pela cidade você vê uma gruta estranha, você lembra sobre Thata comentar que havia algo lá dentro."
 								+ " \nPode ser uma boa ideia entrar.");
+
 			} else {
+				System.out.println("                  _.._\r\n" 
+						+ "   _________....-~    ~-.______\r\n"
+						+ "~~~                            ~~~~-----...___________..--------\r\n"
+						+ "                                              __.~~~._\r\n"
+						+ "                                             (         )\r\n"
+						+ "                                            /    oooo  \\\r\n"
+						+ "                                           (    OOOOOO   \\\r\n"
+						+ "___________________________________________/   oooooooo  )____________\r\n"
+						+ " -          -         -       -      -    / '  '. ` `   \\    -    -\r\n"
+						+ "      --                  --       --   /    '  . `   `   \\    --\r\n"
+						+ "---            ---          ---       /  '                  \\ ---\r\n"
+						+ "     ----               ----        /       ' ' .    ` `      \\  ----\r\n"
+						+ "-----         -----         ----- /   '   '        `      `     \\");
 				System.out.println(
 						"Andando pela cidade você vê uma gruta estranha, é bem assustadora.\nSerá que tem algo lá dentro?");
 			}
@@ -316,7 +365,22 @@ public class mainClass {
 					} while (loop);
 
 					if (decisao == 1) {
-
+						System.out.println("                            _.--.\r\n"
+								+ "                        _.-'_:-'||\r\n" + "                    _.-'_.-::::'||\r\n"
+								+ "               _.-:'_.-::::::'  ||\r\n" + "             .'`-.-:::::::'     ||\r\n"
+								+ "            /.'`;|:::::::'      ||_\r\n"
+								+ "           ||   ||::::::'     _.;._'-._\r\n"
+								+ "           ||   ||:::::'  _.-!oo @.!-._'-.\r\n"
+								+ "           \\'.  ||:::::.-!()oo @!()@.-'_.|\r\n"
+								+ "            '.'-;|:.-'.&$@.& ()$%-'o.'\\U||\r\n"
+								+ "              `>'-.!@%()@'@_%-'_.-o _.|'||\r\n"
+								+ "               ||-._'-.@.-'_.-' _.-o  |'||\r\n"
+								+ "               ||=[ '-._.-\\U/.-'    o |'||\r\n"
+								+ "               || '-.]=|| |'|      o  |'||\r\n"
+								+ "               ||      || |'|        _| ';\r\n"
+								+ "               ||      || |'|    _.-'_.-'\r\n"
+								+ "               |'-._   || |'|_.-'_.-'\r\n" + "                '-._'-.|| |' `_.-'\r\n"
+								+ "                    '-.||_/.-'");
 						System.out.println(
 								"O baú estava cheio de moedas, com um bilhete escrito\n'Para quem encontrar o meu tesouro, a este pertencerá.'");
 						System.out.println("Você pega as moedas e sai da caverna.");
@@ -338,7 +402,21 @@ public class mainClass {
 			}
 
 			int item = 0;
-
+			System.out.println(
+					"                                   /\\\r\n" + "                              /\\  //\\\\\r\n"
+							+ "                       /\\    //\\\\///\\\\\\        /\\\r\n"
+							+ "                      //\\\\  ///\\////\\\\\\\\  /\\  //\\\\\r\n"
+							+ "         /\\          /  ^ \\/^ ^/^  ^  ^ \\/^ \\/  ^ \\\r\n"
+							+ "        / ^\\    /\\  / ^   /  ^/ ^ ^ ^   ^\\ ^/  ^^  \\\r\n"
+							+ "       /^   \\  / ^\\/ ^ ^   ^ / ^  ^    ^  \\/ ^   ^  \\       *\r\n"
+							+ "      /  ^ ^ \\/^  ^\\ ^ ^ ^   ^  ^   ^   ____  ^   ^  \\     /|\\\r\n"
+							+ "     / ^ ^  ^ \\ ^  _\\___________________|  |_____^ ^  \\   /||o\\\r\n"
+							+ "    / ^^  ^ ^ ^\\  /__________Vendinha____________\\ ^ ^ \\ /|o|||\\\r\n"
+							+ "   /  ^  ^^ ^ ^  /____________do Luís_____________\\  ^  /|||||o|\\\r\n"
+							+ "  /^ ^  ^ ^^  ^    ||___|___||||||||||||___|__|||      /||o||||||\\\r\n"
+							+ " / ^   ^   ^    ^  ||___|___||||||||||||___|__|||          | |\r\n"
+							+ "/ ^ ^ ^  ^  ^  ^   ||||||||||||||||||||||||||||||oooooooooo| |ooooooo\r\n"
+							+ "ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo");
 			System.out.println(
 					"Andando pela cidade você se depara com uma loja, na frente há uma placa que diz “Vendinha do Luís”.");
 			System.out.println("Deseja entrar?");
@@ -442,8 +520,12 @@ public class mainClass {
 					acao.ganharPontos("Responsabilidade Pessoal", -2);
 				}
 
-			} 
-			
+			}
+
+			System.out.println("       _\r\n" + "     _|=|__________\r\n" + "    /              \\\r\n"
+					+ "   /                \\\r\n" + "  /__________________\\\r\n" + "   ||  || /--\\ ||  ||\r\n"
+					+ "   ||[]|| | .| ||[]||\r\n" + " ()||__||_|__|_||__||()\r\n" + "( )|-|-|-|====|-|-|-|( ) \r\n"
+					+ "^^^^^^^^^^====^^^^^^^^^^^");
 			System.out.println("Andando mais pela cidade você encontra um homem muito bravo que esbarra em você.");
 			System.out.println("Deseja enfrentá-lo ou acalmá-lo?");
 			System.out.println();
@@ -480,7 +562,15 @@ public class mainClass {
 				System.out.println(
 						"Você de forma calma e gentil usa as técnicas não violentas que uma monja chamada Lélia havia lhe ensinado.");
 				System.out.println(
-						"O homem feliz por tê-lo acalmado lhe dá uma flor vermelha, e diz que simboliza que não será mais violento a partir deste momento.");
+						"O homem feliz por tê-lo acalmado lhe dá uma flor vermelha, e diz que simboliza que não será "
+						+ "\nmais violento a partir deste momento.");
+				System.out.println("\r\n" + "    __ .---.\r\n" + "   __ /  `  .-.7,--.\r\n"
+						+ "  /  `. .-''. -,  , \\\r\n" + "  '--.-    -;   | ) /\r\n" + "  ,` /   \\ ,_) /   '-.\r\n"
+						+ " /  (  (  |   /  .' ) \\\r\n" + " '.  `--,/   .---' ,-.|\r\n" + "   `--.  / '-, -' .'\r\n"
+						+ "  .==,=; `-,.;--'\r\n" + " / ,'  _;--;|\r\n" + "/_...='    ||\r\n"
+						+ "           || .==,=.\r\n" + "           ||/    '.\\\r\n" + "          ,||`'=...__\\\r\n"
+						+ "           ||\r\n" + "           ||\r\n" + "           ||,\r\n" + "           ||\r\n"
+						+ "           ||\r\n" + "           ||");
 				System.out.println("Você aceita?");
 				System.out.println();
 
@@ -543,10 +633,28 @@ public class mainClass {
 			} while (loop);
 
 			if (decisao == 1) {
+				System.out.println("        .-~~-.--.\r\n"
+						+ "       :         )\r\n"
+						+ " .~ ~ -.\\       /.- ~~ .\r\n"
+						+ " >       `.   .'       <\r\n"
+						+ "(         .- -.         )\r\n"
+						+ " `- -.-~  `- -'  ~-.- -'\r\n"
+						+ "   (        :        )           _ _ .-:\r\n"
+						+ "    ~--.    :    .--~        .-~  .-~  }\r\n"
+						+ "        ~-.-^-.-~ \\_      .~  .-~   .~\r\n"
+						+ "                 \\ \\'     \\ '_ _ -~\r\n"
+						+ "                  `.`.    //\r\n"
+						+ "         . - ~ ~-.__`.`-.//\r\n"
+						+ "     .-~   . - ~  }~ ~ ~-.~-.\r\n"
+						+ "   .' .-~      .-~       :/~-.~-./:\r\n"
+						+ "  /_~_ _ . - ~                 ~-.~-._\r\n"
+						+ "                                   ~-.<");
 				System.out.println(
 						"Você ajuda o homem a carregar o fardo, que realmente era muito pesado para uma só pessoa.\n"
 								+ "Após isso o homem te agradece muito, e te dá uma flor azul, diz que representa o trabalho em equipe.");
+				
 				System.out.println("Você aceita?");
+				
 
 				do {
 					try {
@@ -580,10 +688,26 @@ public class mainClass {
 					acao.ganharPontos("Trabalho em Equipe", 3);
 				}
 			}
-
+System.out.println("                          __#^\r\n"
+		+ "                       _####\"\r\n"
+		+ "                ]######_*##\"\r\n"
+		+ "                /#######_#            _____\r\n"
+		+ "               **#\" \"\"####_         _########_ ___\r\n"
+		+ "               \"\"##___########*#___################__,\r\n"
+		+ "  ..._            #\"\" \"###############\"    \"########\"\r\n"
+		+ "  ^**#__-=.._     *_    \"##\r\n"
+		+ "      \"\"\"*####\"#**^\"____  \"#_\r\n"
+		+ "             \"##***#\"\"\"~   I#\r\n"
+		+ "               #__#*_____._##_-<.__     ___\r\n"
+		+ "                *###########\"\"^**#C__-=#\"\"~#__  __##       -\r\n"
+		+ "                  \"\"\"#,_\"##c       \"\"\"*########\"\"\"*##c         _\r\n"
+		+ "                       #_###           \"^^\"^####*_ {##   *\r\n"
+		+ "                      *#^                     \"#_####            \"\r\n"
+		+ "                      \"                        ###*#  _ =    -\r\n"
+		+ "                                                      ~      .   `");
 			System.out.println(
 					"Você encontra uma mulher feiticeira chamada Camis, ela diz que se você tiver todas as flores da cidade, "
-							+ "ela lhe entregará um item muito útil para sua jornada para encontrar o pergaminho Java. Como ela sabe disso?");
+							+ "\nela lhe entregará um item muito útil para sua jornada para encontrar o pergaminho Java. Como ela sabe disso?");
 			System.out.println("Confiar em Camis e entregar as flores?");
 
 			do {
@@ -610,11 +734,26 @@ public class mainClass {
 			if (decisao == 1) {
 				if (acao.verificarMochila("Flor da Amizade") && acao.verificarMochila("Flor da Paz")
 						&& acao.verificarMochila("Flor do Trabalho em Equipe")) {
+					System.out.println("     8 8 8 8                     ,ooo.\r\n"
+							+ "     8a8 8a8                    oP   ?b\r\n"
+							+ "    d888a888zzzzzzzzzzzzzzzzzzzz8     8b\r\n"
+							+ "     `\"\"^\"\"'                    ?o___oP'");
 					System.out.println(
 							"Camis pega as flores e te entrega uma chave, antes que você se dê conta, ela desaparece. Que estranho.");
 					acao.adicionarObjeto("Chave");
-							
+
 				} else {
+					System.out.println("        _.-\"\\\r\n"
+							+ "    _.-\"     \\\r\n"
+							+ " ,-\"          \\\r\n"
+							+ "( \\            \\\r\n"
+							+ " \\ \\            \\\r\n"
+							+ "  \\ \\            \\\r\n"
+							+ "   \\ \\         _.-;\r\n"
+							+ "    \\ \\    _.-\"   :\r\n"
+							+ "     \\ \\,-\"    _.-\"\r\n"
+							+ "      \\(   _.-\"  \r\n"
+							+ "       `--\"");
 					System.out.println(
 							"Camis diz que você não é uma pessoa que sabe o valor das flores, e disse que para dominar Java teria que aprender mais."
 									+ "\nEla te dá um livrinho curto que fala sobre trabalho em equipe, comunicação não violenta e amizade."
@@ -623,12 +762,35 @@ public class mainClass {
 
 			} else {
 				System.out.println("Você diz a Camis que não tem nenhuma flor, ela parece desapontada. "
-						+ "Ela diz que você terá que aprender muitas coisas antes de dominar java."
+						+ "\nEla diz que você terá que aprender muitas coisas antes de dominar java."
 						+ "\nEla simplesmente desaparece depois disso. Que estranho.");
 			}
-
+			
+			
+			
+			System.out.println("                                 {} {}\r\n" 
+					+ "                         !  !  ! II II !  !  !\r\n"
+					+ "                      !  I__I__I_II II_I__I__I  !\r\n"
+					+ "                      I_/|__|__|_|| ||_|__|__|\\_I\r\n"
+					+ "                   ! /|_/|  |  | || || |  |  |\\_|\\ !       \r\n"
+					+ "       .--.        I//|  |  |  | || || |  |  |  |\\\\I        .--.\r\n"
+					+ "      /-   \\    ! /|/ |  |  |  | || || |  |  |  | \\|\\ !    /=   \\\r\n"
+					+ "      \\=__ /    I//|  |  |  |  | || || |  |  |  |  |\\\\I    \\-__ /\r\n"
+					+ "       }  {  ! /|/ |  |  |  |  | || || |  |  |  |  | \\|\\ !  }  {\r\n"
+					+ "      {____} I//|  |  |  |  |  | || || |  |  |  |  |  |\\\\I {____}\r\n"
+					+ "_!__!__|= |=/|/ |  |  |  |  |  | || || |  |  |  |  |  | \\|\\=|  |__!__!_\r\n"
+					+ "_I__I__|  ||/|__|__|__|__|__|__|_|| ||_|__|__|__|__|__|__|\\||- |__I__I_\r\n"
+					+ "-|--|--|- ||-|--|--|--|--|--|--|-|| ||-|--|--|--|--|--|--|-||= |--|--|-\r\n"
+					+ " |  |  |  || |  |  |  |  |  |  | || || |  |  |  |  |  |  | ||  |  |  |\r\n"
+					+ " |  |  |= || |  |  |  |  |  |  | || || |  |  |  |  |  |  | ||= |  |  |\r\n"
+					+ " |  |  |- || |  |  |  |  |  |  | || || |  |  |  |  |  |  | ||= |  |  |\r\n"
+					+ " |  |  |- || |  |  |  |  |  |  | || || |  |  |  |  |  |  | ||- |  |  | \r\n"
+					+ "_|__|__|  ||_|__|__|__|__|__|__|_|| ||_|__|__|__|__|__|__|_||  |__|__|_\r\n"
+					+ "-|--|--|= ||-|--|--|--|--|--|--|-|| ||-|--|--|--|--|--|--|-||- |--|--|-\r\n"
+					+ "-|--|--|| |  |  |  |  |  |  | || || |  |  |  |  |  |  | ||= |  |  | \r\n"
+					+ "~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^~~~~~~~~~~~");
 			System.out.println("\nVocê sabe que está chegando ao fim de uma aventura, porém ainda há mais um desafio. "
-					+ "Você está na entrada de um labirinto e sabe que dentro tem o que procura. Você entra.");
+					+ "\nVocê está na entrada de um labirinto e sabe que dentro tem o que procura. Você entra.");
 
 			if (acao.verificarMochila("Mapa")) {
 				System.out.println(
@@ -637,7 +799,7 @@ public class mainClass {
 					System.out.println("\nVocê coloca a chave que Camis deu para você e abre o altar, "
 							+ "dentro dele há uma estátua segurando o pergaminho java que você rapidamente pega.\r\n"
 							+ "Sua jornada chegou ao fim, você lembra que sem as pessoas no seu caminho nada disso seria possível, "
-							+ "você é muito grate à elas. Voltando para a cidade você vê todos os seus amigos, "
+							+ "você é muito grate à elas. \nVoltando para a cidade você vê todos os seus amigos, "
 							+ "eles estão felizes em te ver de volta, mas você está mais ainda por ter os conhecido.\r\n");
 					System.out.println("\nFim de jogo!");
 					acao.imprimirPontos();
@@ -669,7 +831,7 @@ public class mainClass {
 				} else {
 					System.out.println(
 							"\nVocê percebe que não tem nada para abrir o altar, com raiva você sai do labirinto, "
-									+ "e continua a sua jornada. Você percebe que talvez as pessoas da cidade possam te ajudar, "
+									+ "e continua a sua jornada. \nVocê percebe que talvez as pessoas da cidade possam te ajudar, "
 									+ "mas você pensa que já é tarde demais para isso.");
 
 					do {
@@ -699,7 +861,7 @@ public class mainClass {
 			} else {
 				System.out.println("\nVocê anda muito tempo no labirinto e se perde, "
 						+ "eventualmente acha uma saída mas não acha o que estava procurando. "
-						+ "Um mapa seria bom, mas o que se pode fazer se você tem apenas:");
+						+ "\nUm mapa seria bom, mas o que se pode fazer se você tem apenas:");
 				for (int i = 0; i < itensComprados.size(); i++) {
 					if (itensComprados.get(i).getValor() > 0) {
 						System.out.println(

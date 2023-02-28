@@ -3,7 +3,7 @@ package trilhaGenRpg;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Inventario {
+public class Inventario implements Repository{
 
 	private List<String> mochila = new ArrayList<String>();
 	private List<Item> itens = new ArrayList<Item>();
@@ -59,6 +59,7 @@ public class Inventario {
 		this.objeto = objeto;
 	}
 
+	@Override
 	public void criarPontos() {
 		Pontos comunicacao = new Pontos("Comunicação", 0);
 		Pontos proatividade = new Pontos("Proatividade", 0);
@@ -76,6 +77,7 @@ public class Inventario {
 
 	}
 	
+	@Override
 	public List<Pontos> ganharPontos(String tipoPonto, int quantidadePontos) {
 		
 		switch (tipoPonto) {
@@ -104,6 +106,7 @@ public class Inventario {
 
 	}
 
+	@Override
 	public void imprimirPontos() {
 		System.out.println("\nVocê finalizou com um total de:");
 
@@ -116,6 +119,7 @@ public class Inventario {
 
 	}
 	
+	@Override
 	public int ganharMoedas(int valor) {
 		int moedas = this.moedas + valor;
 		setMoedas(moedas);
@@ -123,11 +127,12 @@ public class Inventario {
 		return moedas;
 	}
 
+	@Override
 	public List<Item> criarItens() {
 		Item pocao = new Item("Poção Estranha", 3);
 		Item pingente = new Item("Pingente de Mangual", 5);
 		Item mangual = new Item("Mangual", 10);
-		Item mapa = new Item("Mapa do Labirinto", 15);
+		Item mapa = new Item("Mapa", 15);
 
 		itens.add(pocao);
 		itens.add(pingente);
@@ -137,6 +142,7 @@ public class Inventario {
 		return itens;
 	}
 
+	@Override
 	public int comprarItem(int identificacao) {
 		Item objeto = itens.get(identificacao - 1);
 		int moedas = this.moedas, valor = objeto.getValor();
@@ -156,10 +162,12 @@ public class Inventario {
 		return moedas;
 	}
 	
+	@Override
 	public void adicionarObjeto(String objeto) {
 		mochila.add(objeto);
 	}
 	
+	@Override
 	public boolean verificarMochila(String item) {
 		boolean existe;
 		
