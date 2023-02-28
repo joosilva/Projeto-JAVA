@@ -4,10 +4,13 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
+import trilhaGenRpg.util.*;
 
 public class mainClass {
 
 	public static void main(String[] args) {
+		
+		Cores cor = new Cores();
 
 		Scanner leia = new Scanner(System.in);
 
@@ -18,13 +21,14 @@ public class mainClass {
 		boolean loop = true;
 
 		while (opcao > 1 && opcao < 4) {
-			System.out.println("\n  ( )_      _(_ )( )");
+			System.out.println(cor.TEXT_RED_BOLD +
+					"\n  ( )_      _(_ )( )");
 			System.out.println("  |  _)_ __(_)| || |__    _ _      __    __   ___");
 			System.out.println("  | | (  __) || ||  _  \\/ _  )   / _  \\/ __ \\  _  \\");
 			System.out.println("  | |_| |  | || || | | | (_| |  ( (_) |  ___/ ( ) |");
 			System.out.println("   \\__)_)  (_)___)_) (_)\\__ _)   \\__  |\\____)_) (_)");
 			System.out.println("                                ( )_) |");
-			System.out.println("                                 \\___/");
+			System.out.println("                                 \\___/" + cor.TEXT_RESET);
 			System.out.println("\n\t\t     BEM-VINDE!\nEstá pronte para embarcar nessa jornada pelo mundo Gen?"
 					+ "\n\t\t1 - INICIAR O JOGO\n\t2 - Sobre\t\t3 - Sair"
 					+ "\n________________________________________________________");
